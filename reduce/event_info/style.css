@@ -1,0 +1,78 @@
+.title
+{
+    font-size: large;
+    font-weight: bolder;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.eventorgan
+{
+    height: min-content;
+}
+.eventorg
+{
+    font-size: medium;
+    margin: 0;
+    font-family:Arial, Helvetica, sans-serif;
+}
+.eventorg_content
+{
+    font-size: small;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight:600;
+    margin: 0;
+    margin-top: 5px;
+    color: gray;
+}
+.eventinfo
+{
+    display:flex;
+    height: 40px;
+    border-bottom-style: solid;
+    border-bottom-color: rgb(218, 209, 209);
+    font-family:Arial, Helvetica, sans-serif;
+}
+.left
+{
+    margin-right: auto;
+    font-size:medium;
+}
+.right
+{
+    margin-left: auto;
+    font-size: medium;
+}
+.location
+{
+    width: 97.5vw;
+    height: 250px;
+    padding-top: 20px;
+}
+.intro
+{
+    display: flex;
+    padding-top: 20px;
+    align-items: flex-start
+}
+.intropic
+{
+    width:100px;
+    height:100px;
+}
+.introdes
+{
+    margin: 0;
+    padding-left:20px;
+    font-family:Arial, Helvetica, sans-serif;
+    font-weight: bold;
+}
+.book
+{
+    width: 95vw;
+    margin-top: 30px;
+    border-radius: 5px;
+    height: 40px;
+    border: none;
+    background-color:dodgerblue;
+    color: white;
+    font-size:15px
+}
