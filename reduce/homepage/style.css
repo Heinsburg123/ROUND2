@@ -1,0 +1,82 @@
+p,h1,h2,h3
+{
+    font-family: Arial, Helvetica, sans-serif;
+    margin:0
+}
+.curloc
+{
+    font-size:medium;
+    margin-bottom: 5px;
+    margin-top: 5xp;
+}
+.search
+{
+    width: 97.5vw;
+    height: 20px;
+    resize:none;
+}
+.title
+{
+    font-size: large;
+    margin-top:40px;
+    margin-bottom: 10px;
+}
+.eventforimg
+{
+    height: 200px;
+    width: 300px;
+}
+.eventfor
+{
+    display:grid;
+    width: 300px;
+    height: 280px;
+    grid-template-columns: 20px 280px;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:rgba(20, 139, 30, 0.705);
+    border-width: 1px;
+}
+
+.eventforimg,.location,.eventtitle
+{
+    grid-column-start: 1;
+    grid-column-end: 3;
+}
+.star
+{
+    grid-column-start: 2;
+    grid-column-end: 3;
+    margin-left: 15px;
+}
+.location,.eventtitle,.calendar
+{
+    margin-left: 5px;
+}
+.location
+{
+    font-size: small;
+    font-weight: bold;
+}
+.eventtitle
+{
+    font-size: medium;
+    font-weight: bold;
+}
+
+.eventnear
+{
+    display:grid;
+    width: 500px;
+    height: 350px;
+    grid-template-columns: 20px 280px;
+    border-radius: 5px;
+    border-style:solid;
+    border-color:rgba(20, 139, 30, 0.705);
+    border-width: 1px;
+}
+.eventnearimg
+{
+    width: 500px;
+    height: 280px;
+}
