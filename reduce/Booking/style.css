@@ -70,5 +70,23 @@ textarea
     margin-top: 20px;
     padding: 20px;
     padding: 40px;
-    
+}
+.buttcontain
+{
+    display:flex;
+    justify-content:center;
+}
+.next
+{
+    margin-top:40px;
+    width: 35vw;
+    height: 5vh;
+    background-color: deepskyblue;
+    color:white;
+    border:0;
+    border-radius: 5px;
+}
+button:hover
+{
+    cursor: pointer;
 }
